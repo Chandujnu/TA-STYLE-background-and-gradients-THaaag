@@ -1,0 +1,100 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section {
+    margin: 0 auto;
+}
+h1 {
+    font-size: 35px;
+    color: rgb(254,255,255);
+    text-align: center;
+    font-weight: 600;
+    padding: 20px 0;
+}
+.bg-img {
+    width: 90%;
+    height: 1000px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../media/bg-img1.jpeg");
+    background-size: cover;
+    margin: 0 auto;
+
+}
+.box {
+    height: 300px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    padding: 20px 20px;
+    
+}
+.box-property {
+    background-color: rgb(247,67,72);
+    width: 30%;
+    height: 300px;  
+    border-radius: 8px;  
+}
+.box-2 {
+    background-image: linear-gradient(to left, rgba(247,67,72,0.9) 6%,rgba(145,41,57,0.8) 60%,rgba(0,0,0,0.5)80%);
+}
+.box-3 {
+    background-image:radial-gradient(rgba(247,67,72,0.5) 30%,rgba(145,41,57,0.8),rgba(0,0,0,0.7)80%);
+}
+.img-box {
+    height: 400px;
+    width: 1100px;
+    background: linear-gradient(to left top,rgba(247,67,72,0.9),rgba(0,0,0,0.4)), url(../media/bg-img.jpeg);
+    background-size: cover;
+    margin: 60px auto;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+}
